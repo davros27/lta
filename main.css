@@ -83,6 +83,11 @@ footer {
 
 #banner {
     text-align: center;
+    width:100%;
+}
+
+#banner img {
+    width:100%;
 }
 
 #mainimage img {
@@ -90,11 +95,95 @@ footer {
     height: 300px;
 }
 
+/*ABOUT*/
+#gap {
+    margin-bottom: 1em;
+}
+
+#aboutwrap {
+    position: relative;
+    width:auto;
+    height:100%;
+    margin:0 auto;
+    display: table-row;
+}
+
+#aboutimage {
+    position: relative;
+    width:47%;
+    height:inherit;
+    display: table-cell;
+    
+}
+
+#aboutimage img{
+    width:100%;
+}
+
+#aboutdesc {
+    position: relative;
+    width:47%;
+    height: inherit;
+    display: table-cell;
+    
+    border:solid 0.2em;
+    border-color: rgba(0,0,0,0.5);
+    border-radius: 1em;
+    
+    background-color: rgba(0,0,0,0.1);
+}
+
 /*COLLECTIONS*/
+#collmain {
+    width: 100%;
+    display: inline-block;
+}
+
+#colldrawings {
+    width: 30%;
+    display: inline-block;
+    float: left;
+    height:18em;
+    
+    border: solid 0.2em;
+    border-color: rgba(0,0,0,0.5);
+    border-radius: 0.8em;
+    
+    background-color:rgba(0,0,0,0.1);
+}
+
+#collpaintings {
+    width: 30%;
+    display: inline-block;
+    float:left;
+    height:18em;
+    margin-left: 3%;
+    
+    border: solid 0.2em;
+    border-color: rgba(0,0,0,0.5);
+    border-radius: 0.8em;
+    
+    background-color:rgba(0,0,0,0.1);
+}
+
+#collillustrations {
+    width: 30%;
+    display: inline-block;
+    float: left;
+    height: 18em;
+    margin-left: 3%;
+    
+    border: solid 0.2em;
+    border-color: rgba(0,0,0,0.5);
+    border-radius: 0.8em;
+    
+    background-color:rgba(0,0,0,0.1);   
+}
 
 /*GALLERY*/
 #maingallery {
     position:relative;
+    margin-left:-9em;
 }
 
 #images {
@@ -106,5 +195,10 @@ footer {
 #images img {
     float:left;
     max-height: 15em;
-    }
+    margin-right: 1em;
+    margin-bottom: 3%;
+    
+    box-shadow: 10px 10px 5px #888888;
+    
+}
 
